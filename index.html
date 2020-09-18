@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>title</title>
+    <style>
+     /* h1{
+        color:red;
+        font-size:20px;
+      }*/
+      .azad1{ /*this is a way to call class bu using dot*/
+        color:red;
+        font-size:20px;
+      }
+      .azad2{
+        color:blue;
+        font-size:10px;
+      }
+      #a1{ /*this is a way to call id by using hashtag*/
+        color:green;
+        font-size:15px;
+        font-style:italic;
+      }
+      .alignTextCenter{
+        text-align:center;
+      }
+      .alignTextRight{
+        text-align:right;
+      }
+      .addBorderGreen{
+        border: solid 2px #00ff00;
+        background-color:yellow; /*add color to your border*/
+      }
+     .addBorderRed{
+        border: solid 2px #ff0000;
+      }
+      .addBorderBlue{
+        border: solid 2px blue;
+      }
+      .addMargin{
+        margin:3px 10px 3px 5px;/* 3px top 10 px right 3px bottom 5px left*/
+      }
+      .addPadding{
+        padding:3px 10px 3px 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="parent1" class="addBorderRed">
+       <div id="child-01" class="alignTextCenter addBorderGreen addMargin">  
+         <p><img src="https://randomuser.me/api/portraits/women/4.jpg"/></p>
+       </div>
+      </div>
+    <div id="parent2" class="addBorderBlue addPadding">
+       <div id="child-02" class="alignTextRight addBorderGreen">  
+         <p>I am a paragraph in child-02</p>
+       </div>
+    </div>
+    <p id="a1">This is A1 with attribute</p>
+    <p id="a2">This is A2 with attribute</p>
+    <h1 class="azad1">Style 1 on Element</h1>
+    <h1 class="azad2">Style 2 on Element</h1>
+    <p>This is a paragraph</p>
+    <div>This is a division</div>
+  </body>
+</html> 
