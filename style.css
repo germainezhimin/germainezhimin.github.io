@@ -1,0 +1,21 @@
+<style>
+      table,td,tr,th{
+        border: 1px solid green;
+        border-collapse: collapse;
+        padding:10px;
+      }
+      th{
+        background-color:green;
+        color:white;
+        border: 1px solid white;
+      }
+      td{
+        border:1px solid black;
+      }
+      /*.center{
+        text-align:center;
+      }*/
+      td:nth-child(3){
+        text-align:center;
+      }
+</style>
