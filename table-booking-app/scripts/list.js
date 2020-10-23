@@ -26,7 +26,7 @@ function GetBookings(){
         row.insertCell (1).innerHTML = gName;
         row.insertCell (2).innerHTML = gEmail;
         row.insertCell (3).innerHTML = gPax;
-        row.insertCell (4).innerHTML = gRemarks;
+        row.insertCell (4).innerHTML = ""; //Remarks
         row.insertCell (5).innerHTML = "<button id='" + buttonId + "' class='btn btn-danger'>Delete</button><br/>";
     
        bookingIds.push(buttonId);
@@ -40,4 +40,4 @@ function GetBookings(){
         })
       }
     }); 
-    }
+}
