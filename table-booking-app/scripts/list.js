@@ -14,11 +14,11 @@ function GetBookings(){
       var bookings = document.getElementById("booking-list");
       var bookingIds = [];
       
-      for(var i = 0; i < json.form.length; i++){
-        var gName = json.form[i].name;
-        var gEmail = json.form[i].email;
-        var gPax = json.form[i].pax;
-        var gId = json.form[i].id;
+      for(var i = 0; i < json.bookings.length; i++){
+        var gName = json.bookings[i].name;
+        var gEmail = json.bookings[i].email;
+        var gPax = json.bookings[i].pax;
+        var gId = json.bookings[i].id;
         var buttonId = "delete" + gId;
 
         let row = bookings.insertRow(bookings.rows.length);
