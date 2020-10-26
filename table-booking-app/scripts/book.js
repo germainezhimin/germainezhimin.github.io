@@ -29,6 +29,6 @@ document.getElementById("bookNow").addEventListener("click", function(){
     let guestname = document.getElementById("guestName").value;
     let guestemail = document.getElementById("guestEmail").value;
     let guestpax = document.getElementById("guestPax").value;
-    let remarks = document.getElementById("guestRemarks").value;
+    let guestRemarks = document.getElementById("guestRemarks").value;
     console.log(name + "," + email + "," + pax + "," + remarks );
 });
