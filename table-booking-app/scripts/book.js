@@ -6,7 +6,6 @@ function BookNow(guestName,guestEmail,guestPax){
       name:guestName,
       email:guestEmail,
       pax:guestPax,
-      remarks:guestRemarks
      }
    }
    fetch(url, {
@@ -20,15 +19,17 @@ function BookNow(guestName,guestEmail,guestPax){
    .then(json => {
      // Do something with object
      console.log(json.bookings);
-     document.getElementById("booking").innerHTML = json.bookings.name + "  successfully added!";
-      GetBookings();
+     //document.getElementById("booking").innerHTML = json.bookings.name + "  successfully added!";
+    //GetBookings();
    });
   }
-  
-document.getElementById("bookNow").addEventListener("click", function(){
-    let guestname = document.getElementById("guestName").value;
-    let guestemail = document.getElementById("guestEmail").value;
-    let guestpax = document.getElementById("guestPax").value;
-    let guestRemarks = document.getElementById("guestRemarks").value;
-    console.log(name + "," + email + "," + pax + "," + remarks );
+
+window.addEventListener("load",function(){
+    document.getElementById("bookNow").addEventListener("click", function(){
+        let name = document.getElementById("guestName").value;
+        let email = document.getElementById("guestEmail").value;
+        let pax = document.getElementById("guestPax").value;
+        let remarks = document.getElementById("guestRemarks").value;
+        console.log(name + "," + email + "," + pax + "," + remarks );
+    });
 });
