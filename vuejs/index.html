@@ -21,7 +21,13 @@
         <span v-if="seen">Now you can see me</span>
         <span v-else>Seen value is false!</span>
     </div>
- 
+    <div id="app-4">
+        <ol>
+            <li v-for="items in todos">
+                {{item.text}}
+            </li>
+        </ol>
+    </div>
     <!--vue app code must be added before <body> closing tag-->
         <script src="./scripts/index.js"></script>    
 </body>
