@@ -20,7 +20,7 @@ function BookNow(guestName,guestEmail,guestPax,guestRemarks){
    .then(json => {
      // Do something with object
      console.log(json.booking);
-     alert(json.booking.name + " successfully booked! + <br/> + Pls check the reservation list for confirmation");
+     alert(json.booking.name + " successfully booked!, pls check the reservation list for confirmation");
 
    });
   }
