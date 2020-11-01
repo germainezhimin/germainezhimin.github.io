@@ -33,13 +33,14 @@
    font-style: italic;
    color: tomato;
    font-family: 'Rye', cursive;
+   font-size: 80%;
  }
  
  .section_footer__open__days,.section_footer__open__time, li, p {
    font-style: italic;
    color: white;
    font-family: 'Vast Shadow', cursive;
-   font-size: 10px;
+   font-size: 60%;
  } 
  
  footer#footer.far{
@@ -52,7 +53,7 @@
  }
  
  .text-white{
-   font-size:12px;
+   font-size:20px;
  }
  h1,h6, .btn{
    color: white;
