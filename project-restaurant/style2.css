@@ -17,8 +17,8 @@
  
  .rgba-gradient {
    background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.1), rgba(265, 255, 107, 0.84) 200%);
-   /*height: 30%; 
-   width: 100%; */
+   height: auto; 
+   width: auto;
  }
  
  html,
@@ -56,5 +56,10 @@
   font-family: 'Allura', cursive;
    font-weight:bold;
    color: white;
+ }
+
+ .section{
+    height: auto; 
+    width: auto;
  }
  
