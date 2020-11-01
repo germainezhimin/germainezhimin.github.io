@@ -1,0 +1,78 @@
+.container-fluid {
+    background-image: url("https://images.pexels.com/photos/1283219/pexels-photo-1283219.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+     background-repeat: no repeat;
+     background-size: cover;
+     background-position: center;
+     opacity: 1;
+     height: 100%;
+     width: 100%;
+ } 
+ .navbar:not(.top-nav-collapse) {
+   background: transparent !important;
+ }
+ .section{
+   /*background-color:rgba(196, 196, 196, 0.87); */
+   background-color: darkslateblue;
+   height: 50%; 
+ }
+ 
+ .rgba-gradient {
+  /* background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 90%); */
+   background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(204, 204, 204, 0.2) 300%);
+   /*height: 80%;*/
+ }
+ 
+ html,
+ body,
+ header,
+ .view {
+   height: 100%;
+ }
+ 
+ .section_footer__heading{
+   /*font-weight: bold; */
+   font-style: italic;
+   color: tomato;
+   font-family: 'Rye', cursive;
+ }
+ 
+ .section_footer__open__days,.section_footer__open__time, li, p {
+   font-style: italic;
+   color: white;
+   font-family: 'Vast Shadow', cursive;
+   font-size: 10px;
+ } 
+ 
+ footer#footer.far{
+   color: white;
+ }
+ .navbar-text-secondary{
+  font-family: 'Allura', cursive;
+   font-weight:bold;
+   color: white;
+ }
+ 
+ .text-white{
+   font-size:12px;
+ }
+ h1,h3, h6, .btn{
+   color: white;
+   font-family: 'Syne Mono', monospace;
+ }
+h1{
+  color: Orange;
+}
+h3{
+  color: #bfff00;
+}
+.food-title{
+  /*font-weight: bold;*/
+  font-style: italic;
+}
+a[target=_top]{ /*refer to top property which is in this case is Lazada*/
+        color:red;
+      }
+ .section_footer__copyright{
+   color: white;
+   font-weight: bold;
+ }
