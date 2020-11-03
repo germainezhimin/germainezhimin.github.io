@@ -27,6 +27,6 @@ function getRandomUser (){
   }
   
   var elGetRandomUser = document.getElementById("getRandomUserBtn");
-  window.addEventListener("load", function(){
+  window.addEventListener("click", function(){
     getRandomUser();
   })
