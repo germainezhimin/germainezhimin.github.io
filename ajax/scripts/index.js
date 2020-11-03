@@ -30,4 +30,5 @@ function getRandomUser (){
   elGetRandomUser.addEventListener("click", function(){
     getRandomUser();
   })
-  /**testing 1a*/
+  /**testing 1va*/
+  /*where*/
